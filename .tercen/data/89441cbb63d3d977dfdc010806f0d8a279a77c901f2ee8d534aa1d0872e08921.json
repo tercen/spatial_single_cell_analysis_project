@@ -1,0 +1,273 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "89441cbb63d3d977dfdc010806f0d8a279a77c901f2ee8d534aa1d0872e08921",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "657f3ef0-b440-11f0-9512-ad1055949642",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "89441cbb63d3d977dfdc010806f0d8a279a77c901f2ee8d534aa1d0872e08921"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 10441,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "a90a8966-e95d-41f7-801a-7d617f7da3c9",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "6e90f287-e5f7-4bdd-b70b-ccb247ef546c",
+   "name": "ds3.cluster_id",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/89/44/89441cbb63d3d977dfdc010806f0d8a279a77c901f2ee8d534aa1d0872e08921",
+ "relation": {
+  "kind": "Relation",
+  "id": "7db3e14b-6539-4363-b792-721e0355be92"
+ },
+ "size": 0,
+ "storageSize": 64088.0,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "bd6a6111-9b62-4dd1-8fa0-bdc4a7186626",
+   "relation": {
+    "kind": "CompositeRelation",
+    "id": "3b166fea-bb83-461e-830d-642eba449db7",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        ".ri"
+       ],
+       "rColumns": [
+        "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734._rids"
+       ]
+      },
+      "rightRelation": {
+       "kind": "SimpleRelation",
+       "id": "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734",
+       "index": 2
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "95386a90-9052-4f88-a4d5-d96bc016f21c",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ci"
+        ],
+        "rColumns": [
+         "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc",
+        "index": 1
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "SimpleRelation",
+      "id": "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a",
+      "index": 0
+     }
+    }
+   },
+   "inNames": [
+    ".ri",
+    ".ci",
+    "ds2.asinh",
+    "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a._rids",
+    "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a.tlbId",
+    "filename",
+    "Object",
+    "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc._rids",
+    "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc.tlbId",
+    "gs0.variable",
+    "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734._rids",
+    "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734.tlbId",
+    "filename",
+    "Object",
+    "gs0.variable"
+   ],
+   "outNames": [
+    ".ri",
+    ".ci",
+    "ds2.asinh",
+    "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a._rids",
+    "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a.tlbId",
+    "filename",
+    "Object",
+    "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc._rids",
+    "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc.tlbId",
+    "gs0.variable",
+    "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734._rids",
+    "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734.tlbId",
+    "ds2..filename",
+    "ds2..Object",
+    "ds2..variable"
+   ]
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "ds2..filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "ds2..Object",
+    "type": "double"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "ds2..variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "ds2.asinh",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds3",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "PhenoGraph",
+    "version": "2.0.2",
+    "operatorId": "0",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "k",
+      "value": "30"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "seed",
+      "value": "-1"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "implementation",
+      "value": "FastPG"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/phenograph_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

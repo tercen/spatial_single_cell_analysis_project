@@ -1,0 +1,365 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "ff483660-b43e-11f0-9512-ad1055949642",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 396758,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "2b864e0c-6ded-4397-8996-3d2133e29385",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9da3d479-f5b8-4ad0-9df4-148ee70b0811",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "92cf7f2d-291e-417a-9e9e-a3b6ab2a0384",
+   "name": "ds2.asinh",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/03/56/0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a",
+ "relation": {
+  "kind": "Relation",
+  "id": "340dcf01-66c6-4a27-9a46-da7e9e466390"
+ },
+ "size": 0,
+ "storageSize": 3578272.0,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "68d8933e-0799-4c6b-94e3-42868331d672",
+   "relation": {
+    "kind": "RenameRelation",
+    "id": "7a1a1746-9891-4b81-878d-e3014f9bb74e",
+    "relation": {
+     "kind": "SimpleRelation",
+     "id": "17b81b737da130aa024f491c2d9fded32e886df1c86e876f6471258e473589ff",
+     "index": 0
+    },
+    "inNames": [
+     "Object",
+     "80ArAr",
+     "Myelope_276((2967))Y89",
+     "Histone_126((2979))In113",
+     "SMA_174((2780))In115",
+     "131Xe",
+     "134Xe",
+     "136Ba",
+     "138La",
+     "CD16_1820((2945))Pr141",
+     "CD38_1719((2961))Nd142",
+     "HLA-DR_1849((2953))Nd143",
+     "CD27_2231((2946))Nd144",
+     "CD15_627((2954))Nd145",
+     "CD45RA_732((2955))Nd146",
+     "CD163_1863((2947))Sm147",
+     "Beta-2M_1855((2962))Nd148",
+     "CD20_36((2980))Sm149",
+     "CD68_77((2963))Nd150",
+     "Indolea_2281((2981))Eu151",
+     "CD3_1841((2941))Sm152",
+     "LAG-3_1817((2982))Eu153",
+     "CD11c_2406((2983))Sm154",
+     "CD279(P_1743((2762))Gd155",
+     "CD140b(_1938((2948))Gd156",
+     "CD7_2258((2956))Gd158",
+     "Granzym_2215((2819))Tb159",
+     "CD274(B_2298((2949))Gd160",
+     "TCF1TCF_2221((2984))Dy161",
+     "CD45RO_2014((2950))Dy162",
+     "FOXP3_115((2942))Dy163",
+     "CD278(I_1815((2951))Dy164",
+     "CD8a_1718((2957))Ho165",
+     "Carboni_2443((2985))Er166",
+     "CD33_2237((2986))Er167",
+     "Ki-67_142((2965))Er168",
+     "VISTA_2024((2966))Tm169",
+     "CD40_2255((2821))Er170",
+     "CD4_2293((2943))Yb171",
+     "CD14_2275((2958))Yb172",
+     "E-Cadhe_103((2959))Yb173",
+     "CD303_2313((2952))Yb174",
+     "CD206(M_324((2960))Lu175",
+     "cleaved_198((2944))Yb176",
+     "DNA1",
+     "DNA2",
+     "196Pt",
+     "206Pb",
+     "area",
+     "centroid-0",
+     "centroid-1",
+     "axis_major_length",
+     "axis_minor_length",
+     "eccentricity",
+     "filename",
+     ".ci",
+     "rowId",
+     "filename_of_zip"
+    ],
+    "outNames": [
+     "Object",
+     "80ArAr",
+     "Myelope_276((2967))Y89",
+     "Histone_126((2979))In113",
+     "SMA_174((2780))In115",
+     "131Xe",
+     "134Xe",
+     "136Ba",
+     "138La",
+     "CD16_1820((2945))Pr141",
+     "CD38_1719((2961))Nd142",
+     "HLA-DR_1849((2953))Nd143",
+     "CD27_2231((2946))Nd144",
+     "CD15_627((2954))Nd145",
+     "CD45RA_732((2955))Nd146",
+     "CD163_1863((2947))Sm147",
+     "Beta-2M_1855((2962))Nd148",
+     "CD20_36((2980))Sm149",
+     "CD68_77((2963))Nd150",
+     "Indolea_2281((2981))Eu151",
+     "CD3_1841((2941))Sm152",
+     "LAG-3_1817((2982))Eu153",
+     "CD11c_2406((2983))Sm154",
+     "CD279(P_1743((2762))Gd155",
+     "CD140b(_1938((2948))Gd156",
+     "CD7_2258((2956))Gd158",
+     "Granzym_2215((2819))Tb159",
+     "CD274(B_2298((2949))Gd160",
+     "TCF1TCF_2221((2984))Dy161",
+     "CD45RO_2014((2950))Dy162",
+     "FOXP3_115((2942))Dy163",
+     "CD278(I_1815((2951))Dy164",
+     "CD8a_1718((2957))Ho165",
+     "Carboni_2443((2985))Er166",
+     "CD33_2237((2986))Er167",
+     "Ki-67_142((2965))Er168",
+     "VISTA_2024((2966))Tm169",
+     "CD40_2255((2821))Er170",
+     "CD4_2293((2943))Yb171",
+     "CD14_2275((2958))Yb172",
+     "E-Cadhe_103((2959))Yb173",
+     "CD303_2313((2952))Yb174",
+     "CD206(M_324((2960))Lu175",
+     "cleaved_198((2944))Yb176",
+     "DNA1",
+     "DNA2",
+     "196Pt",
+     "206Pb",
+     "area",
+     "centroid-0",
+     "centroid-1",
+     "axis_major_length",
+     "axis_minor_length",
+     "eccentricity",
+     "filename",
+     ".ci",
+     "rowId",
+     "filename_of_zip"
+    ]
+   },
+   "names": [
+    "Myelope_276((2967))Y89",
+    "Histone_126((2979))In113",
+    "SMA_174((2780))In115",
+    "CD16_1820((2945))Pr141",
+    "CD38_1719((2961))Nd142",
+    "HLA-DR_1849((2953))Nd143",
+    "CD27_2231((2946))Nd144",
+    "CD15_627((2954))Nd145",
+    "CD45RA_732((2955))Nd146",
+    "CD163_1863((2947))Sm147",
+    "Beta-2M_1855((2962))Nd148",
+    "CD20_36((2980))Sm149",
+    "CD68_77((2963))Nd150",
+    "Indolea_2281((2981))Eu151",
+    "CD3_1841((2941))Sm152",
+    "LAG-3_1817((2982))Eu153",
+    "CD11c_2406((2983))Sm154",
+    "CD279(P_1743((2762))Gd155",
+    "CD140b(_1938((2948))Gd156",
+    "CD7_2258((2956))Gd158",
+    "Granzym_2215((2819))Tb159",
+    "CD274(B_2298((2949))Gd160",
+    "TCF1TCF_2221((2984))Dy161",
+    "CD45RO_2014((2950))Dy162",
+    "FOXP3_115((2942))Dy163",
+    "CD278(I_1815((2951))Dy164",
+    "CD8a_1718((2957))Ho165",
+    "Carboni_2443((2985))Er166",
+    "CD33_2237((2986))Er167",
+    "Ki-67_142((2965))Er168",
+    "VISTA_2024((2966))Tm169",
+    "CD40_2255((2821))Er170",
+    "CD4_2293((2943))Yb171",
+    "CD14_2275((2958))Yb172",
+    "E-Cadhe_103((2959))Yb173",
+    "CD303_2313((2952))Yb174",
+    "CD206(M_324((2960))Lu175",
+    "cleaved_198((2944))Yb176"
+   ],
+   "valueName": "gs0.value",
+   "variableName": "gs0.variable",
+   "valueType": "double",
+   "gatherType": ""
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "filename",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "Object",
+    "type": "double"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "gs0.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "gs0.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds2",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "asinh",
+    "version": "1.1.2",
+    "operatorId": "2",
+    "operatorKind": "ROperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "scale",
+      "value": "5"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/asinh_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

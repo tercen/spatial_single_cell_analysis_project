@@ -1,0 +1,946 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "8aaedc497029ff13c0a0778385221908822ad3a6238a8eac3d97b1fb71392b7d",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "447df32a-8850-44df-9f75-46086544cf4a",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "8aaedc497029ff13c0a0778385221908822ad3a6238a8eac3d97b1fb71392b7d"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "a81fe30e-cdda-4a89-8c04-f305a0b9d61b",
+   "name": "ds6.filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "dac65810-a096-40b9-a116-7362134656e4",
+   "name": "ds6.mimetype",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7e81920f-4d17-47c7-bb87-206b35e5a7ca",
+   "name": ".content",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7670a89f-a34e-4b70-ad7e-784b431f55c2",
+   "name": "ds6.plot_width",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ff892ee4-f698-4bc4-a8c1-a48a7e0ac288",
+   "name": "ds6.plot_height",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/8a/ae/8aaedc497029ff13c0a0778385221908822ad3a6238a8eac3d97b1fb71392b7d",
+ "relation": {
+  "kind": "Relation",
+  "id": "606e7286-2832-4b9e-9108-c01a4f476c9d"
+ },
+ "size": 0,
+ "storageSize": 133848.0,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "3e338e4c-eeea-4b3a-8633-c97de8e498e6",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "filename",
+       "Object",
+       "centroid-0",
+       "centroid-1",
+       "gs0.variable"
+      ],
+      "rColumns": [
+       "filename",
+       "Object",
+       "centroid-0",
+       "centroid-1",
+       "gs0.variable"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "8637dc56-c1bf-4d71-acaf-029b36933dcc",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "4467d856-c3a8-4985-a9a2-d2bce8dcd659",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "4fdee85a8dc910b27be2d044ac967eb7bdb91f8d6a1ca5ea0dbf9deb40fbb07f._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "4fdee85a8dc910b27be2d044ac967eb7bdb91f8d6a1ca5ea0dbf9deb40fbb07f",
+          "index": 8
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "CompositeRelation",
+        "id": "a7e72e71-54b0-48c8-bd04-6f38e87aea1f",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "e82bc758f0990411799d664112db7a3cb5302edee7b6e2e808870f5e01e04bda._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "e82bc758f0990411799d664112db7a3cb5302edee7b6e2e808870f5e01e04bda",
+           "index": 7
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "2365b93b47cdfba5950bf5511fece5069b72087ade4d7eb87480b829c849d494",
+         "index": 6
+        }
+       }
+      },
+      "inNames": [
+       ".ci",
+       "ds10111.neighbourhood_cluster",
+       ".ri",
+       "2365b93b47cdfba5950bf5511fece5069b72087ade4d7eb87480b829c849d494._rids",
+       "2365b93b47cdfba5950bf5511fece5069b72087ade4d7eb87480b829c849d494.tlbId",
+       "filename",
+       "Object",
+       "centroid-0",
+       "centroid-1",
+       "e82bc758f0990411799d664112db7a3cb5302edee7b6e2e808870f5e01e04bda._rids",
+       "e82bc758f0990411799d664112db7a3cb5302edee7b6e2e808870f5e01e04bda.tlbId",
+       "gs0.variable",
+       "4fdee85a8dc910b27be2d044ac967eb7bdb91f8d6a1ca5ea0dbf9deb40fbb07f._rids",
+       "4fdee85a8dc910b27be2d044ac967eb7bdb91f8d6a1ca5ea0dbf9deb40fbb07f.tlbId",
+       "filename",
+       "Object",
+       "centroid-0",
+       "centroid-1",
+       "gs0.variable"
+      ],
+      "outNames": [
+       ".ci",
+       "ds10111.neighbourhood_cluster",
+       ".ri",
+       "2365b93b47cdfba5950bf5511fece5069b72087ade4d7eb87480b829c849d494._rids",
+       "2365b93b47cdfba5950bf5511fece5069b72087ade4d7eb87480b829c849d494.tlbId",
+       "filename",
+       "Object",
+       "centroid-0",
+       "centroid-1",
+       "e82bc758f0990411799d664112db7a3cb5302edee7b6e2e808870f5e01e04bda._rids",
+       "e82bc758f0990411799d664112db7a3cb5302edee7b6e2e808870f5e01e04bda.tlbId",
+       "gs0.variable",
+       "4fdee85a8dc910b27be2d044ac967eb7bdb91f8d6a1ca5ea0dbf9deb40fbb07f._rids",
+       "4fdee85a8dc910b27be2d044ac967eb7bdb91f8d6a1ca5ea0dbf9deb40fbb07f.tlbId",
+       "ds10111..filename",
+       "ds10111..Object",
+       "ds10111..centroid-0",
+       "ds10111..centroid-1",
+       "ds10111..variable"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "403c2018-5c65-47f5-a302-e631a33d597c",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "ds2..filename",
+        "ds2..Object"
+       ],
+       "rColumns": [
+        "ds2..filename",
+        "ds2..Object"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "f83442cf-d220-45e0-a54a-0ec72ac0e82f",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "ac0044f4-5198-4769-8953-f1191e9801c7",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "f7e67dd0ca487c682c86a440fb5c1358059bac9bf161073a9ed9eafe95fc10c1-1._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "f7e67dd0ca487c682c86a440fb5c1358059bac9bf161073a9ed9eafe95fc10c1-1",
+           "index": 5
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "c655f5d1374804f373ca49bbd15f6cbe297fec33e5d2e1c787f1a9aa53f817da",
+         "index": 4
+        }
+       },
+       "inNames": [
+        "ds30.umap.1",
+        "ds30.umap.2",
+        ".ci",
+        "c655f5d1374804f373ca49bbd15f6cbe297fec33e5d2e1c787f1a9aa53f817da._rids",
+        "c655f5d1374804f373ca49bbd15f6cbe297fec33e5d2e1c787f1a9aa53f817da.tlbId",
+        "ds2..filename",
+        "ds2..Object",
+        "f7e67dd0ca487c682c86a440fb5c1358059bac9bf161073a9ed9eafe95fc10c1-1._rids",
+        "f7e67dd0ca487c682c86a440fb5c1358059bac9bf161073a9ed9eafe95fc10c1-1.tlbId",
+        "ds2..filename",
+        "ds2..Object"
+       ],
+       "outNames": [
+        "ds30.umap.1",
+        "ds30.umap.2",
+        ".ci",
+        "c655f5d1374804f373ca49bbd15f6cbe297fec33e5d2e1c787f1a9aa53f817da._rids",
+        "c655f5d1374804f373ca49bbd15f6cbe297fec33e5d2e1c787f1a9aa53f817da.tlbId",
+        "ds2..filename",
+        "ds2..Object",
+        "f7e67dd0ca487c682c86a440fb5c1358059bac9bf161073a9ed9eafe95fc10c1-1._rids",
+        "f7e67dd0ca487c682c86a440fb5c1358059bac9bf161073a9ed9eafe95fc10c1-1.tlbId",
+        "ds30..filename",
+        "ds30..Object"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "d6ca83ac-c8d8-4739-9c4e-495c623d9072",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "filename",
+         "Object",
+         "gs0.variable"
+        ],
+        "rColumns": [
+         "filename",
+         "Object",
+         "gs0.variable"
+        ]
+       },
+       "rightRelation": {
+        "kind": "RenameRelation",
+        "id": "7aa656c9-aa24-44a0-901f-0178ca030c5f",
+        "relation": {
+         "kind": "CompositeRelation",
+         "id": "2a72dc78-6154-4577-8ecb-36a7a0e33a1d",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ri"
+            ],
+            "rColumns": [
+             "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734",
+            "index": 3
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "CompositeRelation",
+          "id": "219ef12b-4640-4333-8cbc-0a8fa1a80459",
+          "joinOperators": [
+           {
+            "kind": "JoinOperator",
+            "joinType": "leftOuter",
+            "leftPair": {
+             "kind": "ColumnPair",
+             "lColumns": [
+              ".ci"
+             ],
+             "rColumns": [
+              "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc._rids"
+             ]
+            },
+            "rightRelation": {
+             "kind": "SimpleRelation",
+             "id": "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc",
+             "index": 2
+            }
+           }
+          ],
+          "mainRelation": {
+           "kind": "SimpleRelation",
+           "id": "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a",
+           "index": 1
+          }
+         }
+        },
+        "inNames": [
+         ".ri",
+         ".ci",
+         "ds2.asinh",
+         "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a._rids",
+         "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a.tlbId",
+         "filename",
+         "Object",
+         "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc._rids",
+         "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc.tlbId",
+         "gs0.variable",
+         "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734._rids",
+         "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734.tlbId",
+         "filename",
+         "Object",
+         "gs0.variable"
+        ],
+        "outNames": [
+         ".ri",
+         ".ci",
+         "ds2.asinh",
+         "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a._rids",
+         "0356c401ce4165a481f91a85f3708a2f84b8887e7b26cdba5578947e968e5c6a.tlbId",
+         "filename",
+         "Object",
+         "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc._rids",
+         "de06ed4b21245261855b9ed0e319c977bf1d1b20650dfb2abb3807831b8494cc.tlbId",
+         "gs0.variable",
+         "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734._rids",
+         "a04eeba2fd3ab909cfcaba8d95465996a97863d83425cefbbf46bab8e9dd4734.tlbId",
+         "ds2..filename",
+         "ds2..Object",
+         "ds2..variable"
+        ]
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "GatherRelation",
+      "id": "981c30c4-b426-48c9-8a91-1831978c5d1d",
+      "relation": {
+       "kind": "RenameRelation",
+       "id": "045556e5-8ab3-4fcd-85e1-09168ca78ab6",
+       "relation": {
+        "kind": "SimpleRelation",
+        "id": "17b81b737da130aa024f491c2d9fded32e886df1c86e876f6471258e473589ff",
+        "index": 0
+       },
+       "inNames": [
+        "Object",
+        "80ArAr",
+        "Myelope_276((2967))Y89",
+        "Histone_126((2979))In113",
+        "SMA_174((2780))In115",
+        "131Xe",
+        "134Xe",
+        "136Ba",
+        "138La",
+        "CD16_1820((2945))Pr141",
+        "CD38_1719((2961))Nd142",
+        "HLA-DR_1849((2953))Nd143",
+        "CD27_2231((2946))Nd144",
+        "CD15_627((2954))Nd145",
+        "CD45RA_732((2955))Nd146",
+        "CD163_1863((2947))Sm147",
+        "Beta-2M_1855((2962))Nd148",
+        "CD20_36((2980))Sm149",
+        "CD68_77((2963))Nd150",
+        "Indolea_2281((2981))Eu151",
+        "CD3_1841((2941))Sm152",
+        "LAG-3_1817((2982))Eu153",
+        "CD11c_2406((2983))Sm154",
+        "CD279(P_1743((2762))Gd155",
+        "CD140b(_1938((2948))Gd156",
+        "CD7_2258((2956))Gd158",
+        "Granzym_2215((2819))Tb159",
+        "CD274(B_2298((2949))Gd160",
+        "TCF1TCF_2221((2984))Dy161",
+        "CD45RO_2014((2950))Dy162",
+        "FOXP3_115((2942))Dy163",
+        "CD278(I_1815((2951))Dy164",
+        "CD8a_1718((2957))Ho165",
+        "Carboni_2443((2985))Er166",
+        "CD33_2237((2986))Er167",
+        "Ki-67_142((2965))Er168",
+        "VISTA_2024((2966))Tm169",
+        "CD40_2255((2821))Er170",
+        "CD4_2293((2943))Yb171",
+        "CD14_2275((2958))Yb172",
+        "E-Cadhe_103((2959))Yb173",
+        "CD303_2313((2952))Yb174",
+        "CD206(M_324((2960))Lu175",
+        "cleaved_198((2944))Yb176",
+        "DNA1",
+        "DNA2",
+        "196Pt",
+        "206Pb",
+        "area",
+        "centroid-0",
+        "centroid-1",
+        "axis_major_length",
+        "axis_minor_length",
+        "eccentricity",
+        "filename",
+        ".ci",
+        "rowId",
+        "filename_of_zip"
+       ],
+       "outNames": [
+        "Object",
+        "80ArAr",
+        "Myelope_276((2967))Y89",
+        "Histone_126((2979))In113",
+        "SMA_174((2780))In115",
+        "131Xe",
+        "134Xe",
+        "136Ba",
+        "138La",
+        "CD16_1820((2945))Pr141",
+        "CD38_1719((2961))Nd142",
+        "HLA-DR_1849((2953))Nd143",
+        "CD27_2231((2946))Nd144",
+        "CD15_627((2954))Nd145",
+        "CD45RA_732((2955))Nd146",
+        "CD163_1863((2947))Sm147",
+        "Beta-2M_1855((2962))Nd148",
+        "CD20_36((2980))Sm149",
+        "CD68_77((2963))Nd150",
+        "Indolea_2281((2981))Eu151",
+        "CD3_1841((2941))Sm152",
+        "LAG-3_1817((2982))Eu153",
+        "CD11c_2406((2983))Sm154",
+        "CD279(P_1743((2762))Gd155",
+        "CD140b(_1938((2948))Gd156",
+        "CD7_2258((2956))Gd158",
+        "Granzym_2215((2819))Tb159",
+        "CD274(B_2298((2949))Gd160",
+        "TCF1TCF_2221((2984))Dy161",
+        "CD45RO_2014((2950))Dy162",
+        "FOXP3_115((2942))Dy163",
+        "CD278(I_1815((2951))Dy164",
+        "CD8a_1718((2957))Ho165",
+        "Carboni_2443((2985))Er166",
+        "CD33_2237((2986))Er167",
+        "Ki-67_142((2965))Er168",
+        "VISTA_2024((2966))Tm169",
+        "CD40_2255((2821))Er170",
+        "CD4_2293((2943))Yb171",
+        "CD14_2275((2958))Yb172",
+        "E-Cadhe_103((2959))Yb173",
+        "CD303_2313((2952))Yb174",
+        "CD206(M_324((2960))Lu175",
+        "cleaved_198((2944))Yb176",
+        "DNA1",
+        "DNA2",
+        "196Pt",
+        "206Pb",
+        "area",
+        "centroid-0",
+        "centroid-1",
+        "axis_major_length",
+        "axis_minor_length",
+        "eccentricity",
+        "filename",
+        ".ci",
+        "rowId",
+        "filename_of_zip"
+       ]
+      },
+      "names": [
+       "Myelope_276((2967))Y89",
+       "Histone_126((2979))In113",
+       "SMA_174((2780))In115",
+       "CD16_1820((2945))Pr141",
+       "CD38_1719((2961))Nd142",
+       "HLA-DR_1849((2953))Nd143",
+       "CD27_2231((2946))Nd144",
+       "CD15_627((2954))Nd145",
+       "CD45RA_732((2955))Nd146",
+       "CD163_1863((2947))Sm147",
+       "Beta-2M_1855((2962))Nd148",
+       "CD20_36((2980))Sm149",
+       "CD68_77((2963))Nd150",
+       "Indolea_2281((2981))Eu151",
+       "CD3_1841((2941))Sm152",
+       "LAG-3_1817((2982))Eu153",
+       "CD11c_2406((2983))Sm154",
+       "CD279(P_1743((2762))Gd155",
+       "CD140b(_1938((2948))Gd156",
+       "CD7_2258((2956))Gd158",
+       "Granzym_2215((2819))Tb159",
+       "CD274(B_2298((2949))Gd160",
+       "TCF1TCF_2221((2984))Dy161",
+       "CD45RO_2014((2950))Dy162",
+       "FOXP3_115((2942))Dy163",
+       "CD278(I_1815((2951))Dy164",
+       "CD8a_1718((2957))Ho165",
+       "Carboni_2443((2985))Er166",
+       "CD33_2237((2986))Er167",
+       "Ki-67_142((2965))Er168",
+       "VISTA_2024((2966))Tm169",
+       "CD40_2255((2821))Er170",
+       "CD4_2293((2943))Yb171",
+       "CD14_2275((2958))Yb172",
+       "E-Cadhe_103((2959))Yb173",
+       "CD303_2313((2952))Yb174",
+       "CD206(M_324((2960))Lu175",
+       "cleaved_198((2944))Yb176"
+      ],
+      "valueName": "gs0.value",
+      "variableName": "gs0.variable",
+      "valueType": "double",
+      "gatherType": ""
+     }
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "ds30..filename",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 3,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "ds30.umap.2",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "ds30.umap.1",
+     "type": "double"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "ds10111.neighbourhood_cluster",
+      "type": "string"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds6",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Plot",
+    "version": "1.0.10",
+    "operatorId": "4",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "plot_type",
+      "value": "png"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "file.name.prefix",
+      "value": "Tercen_Plot"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.width",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.height",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "base.size",
+      "value": "11"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "x_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "y_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "xlab",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "ylab",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "subtitle",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "caption",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "legend.title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "bar.position",
+      "value": "dodge"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "theme",
+      "value": "light"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scales",
+      "value": "fixed"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "color_scales",
+      "value": "fixed"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "rotate_x_axis",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "wrap.1d",
+      "value": "true"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "flip",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "split_cells",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_cells_max",
+      "value": "50"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "heatmap_annotation",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "default.color",
+      "value": "#36454f"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "legend.point.scale",
+      "value": "1"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/plot_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "https://tercen.com/_ontology/tercen",
+     "ontologyVersion": "0.0.1",
+     "inputSpecs": [
+      {
+       "kind": "CrosstabSpec",
+       "metaFactors": [
+        {
+         "kind": "MetaFactor",
+         "name": "Page",
+         "type": "",
+         "description": "These factor(s) will be used to produce one plot file per category.",
+         "ontologyMapping": "page",
+         "crosstabMapping": "row",
+         "cardinality": "0..n",
+         "factors": []
+        },
+        {
+         "kind": "MetaFactor",
+         "name": "Rows",
+         "type": "",
+         "description": "Factor(s) to stratify per row.",
+         "ontologyMapping": "sample",
+         "crosstabMapping": "row",
+         "cardinality": "0..n",
+         "factors": []
+        },
+        {
+         "kind": "MetaFactor",
+         "name": "Columns",
+         "type": "",
+         "description": "Factor(s) to stratify per column.",
+         "ontologyMapping": "variable",
+         "crosstabMapping": "column",
+         "cardinality": "0..n",
+         "factors": []
+        }
+       ],
+       "axis": [
+        {
+         "kind": "AxisSpec",
+         "metaFactors": [
+          {
+           "kind": "MetaFactor",
+           "name": "Y Axis",
+           "type": "numeric",
+           "description": "Factor to use for the graph's Y axis.",
+           "ontologyMapping": "y-axis",
+           "crosstabMapping": "y",
+           "cardinality": "1",
+           "factors": []
+          },
+          {
+           "kind": "MetaFactor",
+           "name": "X Axis",
+           "type": "",
+           "description": "Factor to use for the graph's X axis.",
+           "ontologyMapping": "x-axis",
+           "crosstabMapping": "x",
+           "cardinality": "1",
+           "factors": []
+          },
+          {
+           "kind": "MetaFactor",
+           "name": "Colors",
+           "type": "",
+           "description": "Factor(s) to use as colors.",
+           "ontologyMapping": "variable",
+           "crosstabMapping": "color",
+           "cardinality": "0..n",
+           "factors": []
+          },
+          {
+           "kind": "MetaFactor",
+           "name": "Labels",
+           "type": "",
+           "description": "Factor(s) to use as labels.",
+           "ontologyMapping": "variable",
+           "crosstabMapping": "label",
+           "cardinality": "0..n",
+           "factors": []
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "1000000000"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "preferred.run.ctx",
+     "value": ""
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

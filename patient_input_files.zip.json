@@ -1,0 +1,42 @@
+{
+ "kind": "TableSchema",
+ "id": "7",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "patient_input_files.zip",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "SimpleRelation",
+  "id": "17b81b737da130aa024f491c2d9fded32e886df1c86e876f6471258e473589ff",
+  "index": 0
+ },
+ "size": 0,
+ "storageSize": 0.0
+}

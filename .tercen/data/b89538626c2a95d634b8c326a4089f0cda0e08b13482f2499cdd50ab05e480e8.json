@@ -1,0 +1,632 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "b89538626c2a95d634b8c326a4089f0cda0e08b13482f2499cdd50ab05e480e8",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "1311b13d-5054-4644-b53f-68574e1b4645",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "b89538626c2a95d634b8c326a4089f0cda0e08b13482f2499cdd50ab05e480e8"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 17,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "ebce6156-0da1-4b23-aec6-5a567c37a44c",
+   "name": "ds1.filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9728bdd1-51be-4eb2-ba36-78d2e3a34295",
+   "name": "ds1.mimetype",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "24be44f2-ee59-471f-b883-600071e5bc7a",
+   "name": ".content",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e72ec0ed-06e3-4633-9ac3-00100896ba88",
+   "name": "ds1.plot_width",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "4dcd0880-b275-4b9e-800a-cad0e9e853f7",
+   "name": "ds1.plot_height",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/b8/95/b89538626c2a95d634b8c326a4089f0cda0e08b13482f2499cdd50ab05e480e8",
+ "relation": {
+  "kind": "Relation",
+  "id": "f5dd16a6-bdc1-4448-b46c-887b3a1a43a6"
+ },
+ "size": 0,
+ "storageSize": 2746296.0,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "94c2066d-7002-476b-8fd2-053de4199d9a",
+   "relation": {
+    "kind": "RenameRelation",
+    "id": "c838df4d-f769-4489-8b2e-9ea641ca4108",
+    "relation": {
+     "kind": "SimpleRelation",
+     "id": "17b81b737da130aa024f491c2d9fded32e886df1c86e876f6471258e473589ff",
+     "index": 0
+    },
+    "inNames": [
+     "Object",
+     "80ArAr",
+     "Myelope_276((2967))Y89",
+     "Histone_126((2979))In113",
+     "SMA_174((2780))In115",
+     "131Xe",
+     "134Xe",
+     "136Ba",
+     "138La",
+     "CD16_1820((2945))Pr141",
+     "CD38_1719((2961))Nd142",
+     "HLA-DR_1849((2953))Nd143",
+     "CD27_2231((2946))Nd144",
+     "CD15_627((2954))Nd145",
+     "CD45RA_732((2955))Nd146",
+     "CD163_1863((2947))Sm147",
+     "Beta-2M_1855((2962))Nd148",
+     "CD20_36((2980))Sm149",
+     "CD68_77((2963))Nd150",
+     "Indolea_2281((2981))Eu151",
+     "CD3_1841((2941))Sm152",
+     "LAG-3_1817((2982))Eu153",
+     "CD11c_2406((2983))Sm154",
+     "CD279(P_1743((2762))Gd155",
+     "CD140b(_1938((2948))Gd156",
+     "CD7_2258((2956))Gd158",
+     "Granzym_2215((2819))Tb159",
+     "CD274(B_2298((2949))Gd160",
+     "TCF1TCF_2221((2984))Dy161",
+     "CD45RO_2014((2950))Dy162",
+     "FOXP3_115((2942))Dy163",
+     "CD278(I_1815((2951))Dy164",
+     "CD8a_1718((2957))Ho165",
+     "Carboni_2443((2985))Er166",
+     "CD33_2237((2986))Er167",
+     "Ki-67_142((2965))Er168",
+     "VISTA_2024((2966))Tm169",
+     "CD40_2255((2821))Er170",
+     "CD4_2293((2943))Yb171",
+     "CD14_2275((2958))Yb172",
+     "E-Cadhe_103((2959))Yb173",
+     "CD303_2313((2952))Yb174",
+     "CD206(M_324((2960))Lu175",
+     "cleaved_198((2944))Yb176",
+     "DNA1",
+     "DNA2",
+     "196Pt",
+     "206Pb",
+     "area",
+     "centroid-0",
+     "centroid-1",
+     "axis_major_length",
+     "axis_minor_length",
+     "eccentricity",
+     "filename",
+     ".ci",
+     "rowId",
+     "filename_of_zip"
+    ],
+    "outNames": [
+     "Object",
+     "80ArAr",
+     "Myelope_276((2967))Y89",
+     "Histone_126((2979))In113",
+     "SMA_174((2780))In115",
+     "131Xe",
+     "134Xe",
+     "136Ba",
+     "138La",
+     "CD16_1820((2945))Pr141",
+     "CD38_1719((2961))Nd142",
+     "HLA-DR_1849((2953))Nd143",
+     "CD27_2231((2946))Nd144",
+     "CD15_627((2954))Nd145",
+     "CD45RA_732((2955))Nd146",
+     "CD163_1863((2947))Sm147",
+     "Beta-2M_1855((2962))Nd148",
+     "CD20_36((2980))Sm149",
+     "CD68_77((2963))Nd150",
+     "Indolea_2281((2981))Eu151",
+     "CD3_1841((2941))Sm152",
+     "LAG-3_1817((2982))Eu153",
+     "CD11c_2406((2983))Sm154",
+     "CD279(P_1743((2762))Gd155",
+     "CD140b(_1938((2948))Gd156",
+     "CD7_2258((2956))Gd158",
+     "Granzym_2215((2819))Tb159",
+     "CD274(B_2298((2949))Gd160",
+     "TCF1TCF_2221((2984))Dy161",
+     "CD45RO_2014((2950))Dy162",
+     "FOXP3_115((2942))Dy163",
+     "CD278(I_1815((2951))Dy164",
+     "CD8a_1718((2957))Ho165",
+     "Carboni_2443((2985))Er166",
+     "CD33_2237((2986))Er167",
+     "Ki-67_142((2965))Er168",
+     "VISTA_2024((2966))Tm169",
+     "CD40_2255((2821))Er170",
+     "CD4_2293((2943))Yb171",
+     "CD14_2275((2958))Yb172",
+     "E-Cadhe_103((2959))Yb173",
+     "CD303_2313((2952))Yb174",
+     "CD206(M_324((2960))Lu175",
+     "cleaved_198((2944))Yb176",
+     "DNA1",
+     "DNA2",
+     "196Pt",
+     "206Pb",
+     "area",
+     "centroid-0",
+     "centroid-1",
+     "axis_major_length",
+     "axis_minor_length",
+     "eccentricity",
+     "filename",
+     ".ci",
+     "rowId",
+     "filename_of_zip"
+    ]
+   },
+   "names": [
+    "Myelope_276((2967))Y89",
+    "Histone_126((2979))In113",
+    "SMA_174((2780))In115",
+    "CD16_1820((2945))Pr141",
+    "CD38_1719((2961))Nd142",
+    "HLA-DR_1849((2953))Nd143",
+    "CD27_2231((2946))Nd144",
+    "CD15_627((2954))Nd145",
+    "CD45RA_732((2955))Nd146",
+    "CD163_1863((2947))Sm147",
+    "Beta-2M_1855((2962))Nd148",
+    "CD20_36((2980))Sm149",
+    "CD68_77((2963))Nd150",
+    "Indolea_2281((2981))Eu151",
+    "CD3_1841((2941))Sm152",
+    "LAG-3_1817((2982))Eu153",
+    "CD11c_2406((2983))Sm154",
+    "CD279(P_1743((2762))Gd155",
+    "CD140b(_1938((2948))Gd156",
+    "CD7_2258((2956))Gd158",
+    "Granzym_2215((2819))Tb159",
+    "CD274(B_2298((2949))Gd160",
+    "TCF1TCF_2221((2984))Dy161",
+    "CD45RO_2014((2950))Dy162",
+    "FOXP3_115((2942))Dy163",
+    "CD278(I_1815((2951))Dy164",
+    "CD8a_1718((2957))Ho165",
+    "Carboni_2443((2985))Er166",
+    "CD33_2237((2986))Er167",
+    "Ki-67_142((2965))Er168",
+    "VISTA_2024((2966))Tm169",
+    "CD40_2255((2821))Er170",
+    "CD4_2293((2943))Yb171",
+    "CD14_2275((2958))Yb172",
+    "E-Cadhe_103((2959))Yb173",
+    "CD303_2313((2952))Yb174",
+    "CD206(M_324((2960))Lu175",
+    "cleaved_198((2944))Yb176"
+   ],
+   "valueName": "gs0.value",
+   "variableName": "gs0.variable",
+   "valueType": "double",
+   "gatherType": ""
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "filename",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "gs0.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "centroid-1",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "centroid-0",
+     "type": "double"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "gs0.value",
+      "type": "double"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds1",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Plot",
+    "version": "1.0.10",
+    "operatorId": "4",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "plot_type",
+      "value": "png"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "file.name.prefix",
+      "value": "Tercen_Plot"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.width",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "plot.height",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "base.size",
+      "value": "11"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "x_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "y_range",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "xlab",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "ylab",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "subtitle",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "caption",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "legend.title",
+      "value": ""
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "bar.position",
+      "value": "dodge"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "theme",
+      "value": "light"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "scales",
+      "value": "fixed"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "color_scales",
+      "value": "fixed"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "rotate_x_axis",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "wrap.1d",
+      "value": "true"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "flip",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "split_cells",
+      "value": "false"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "n_cells_max",
+      "value": "50"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "heatmap_annotation",
+      "value": "none"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "default.color",
+      "value": "#36454f"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "legend.point.scale",
+      "value": "1"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/plot_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "https://tercen.com/_ontology/tercen",
+     "ontologyVersion": "0.0.1",
+     "inputSpecs": [
+      {
+       "kind": "CrosstabSpec",
+       "metaFactors": [
+        {
+         "kind": "MetaFactor",
+         "name": "Page",
+         "type": "",
+         "description": "These factor(s) will be used to produce one plot file per category.",
+         "ontologyMapping": "page",
+         "crosstabMapping": "row",
+         "cardinality": "0..n",
+         "factors": []
+        },
+        {
+         "kind": "MetaFactor",
+         "name": "Rows",
+         "type": "",
+         "description": "Factor(s) to stratify per row.",
+         "ontologyMapping": "sample",
+         "crosstabMapping": "row",
+         "cardinality": "0..n",
+         "factors": []
+        },
+        {
+         "kind": "MetaFactor",
+         "name": "Columns",
+         "type": "",
+         "description": "Factor(s) to stratify per column.",
+         "ontologyMapping": "variable",
+         "crosstabMapping": "column",
+         "cardinality": "0..n",
+         "factors": []
+        }
+       ],
+       "axis": [
+        {
+         "kind": "AxisSpec",
+         "metaFactors": [
+          {
+           "kind": "MetaFactor",
+           "name": "Y Axis",
+           "type": "numeric",
+           "description": "Factor to use for the graph's Y axis.",
+           "ontologyMapping": "y-axis",
+           "crosstabMapping": "y",
+           "cardinality": "1",
+           "factors": []
+          },
+          {
+           "kind": "MetaFactor",
+           "name": "X Axis",
+           "type": "",
+           "description": "Factor to use for the graph's X axis.",
+           "ontologyMapping": "x-axis",
+           "crosstabMapping": "x",
+           "cardinality": "1",
+           "factors": []
+          },
+          {
+           "kind": "MetaFactor",
+           "name": "Colors",
+           "type": "",
+           "description": "Factor(s) to use as colors.",
+           "ontologyMapping": "variable",
+           "crosstabMapping": "color",
+           "cardinality": "0..n",
+           "factors": []
+          },
+          {
+           "kind": "MetaFactor",
+           "name": "Labels",
+           "type": "",
+           "description": "Factor(s) to use as labels.",
+           "ontologyMapping": "variable",
+           "crosstabMapping": "label",
+           "cardinality": "0..n",
+           "factors": []
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "10000000000"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "preferred.run.ctx",
+     "value": ""
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

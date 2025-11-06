@@ -1,0 +1,243 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "11c40ed0981495bc8d66f63c512de57624bf23c474abbcaa369faf9b2ba45d85",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "dbbaf1c0-bb13-11f0-9512-ad1055949642",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "11c40ed0981495bc8d66f63c512de57624bf23c474abbcaa369faf9b2ba45d85"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "aa9c11a4-ad82-4778-a9ee-b7065abbcb3c",
+   "name": "ds5.filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "99c06763-465b-4474-b92d-2397aa171e75",
+   "name": "ds5.mimetype",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "37728ac0-5c34-4637-bf18-b44e5bbaf83b",
+   "name": "ds5.checksum",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "15ee1164-5fdb-4e42-9aed-41369cabc1c2",
+   "name": ".content",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   },
+   "storageSize": -1.0
+  }
+ ],
+ "dataDirectory": "data/11/c4/11c40ed0981495bc8d66f63c512de57624bf23c474abbcaa369faf9b2ba45d85",
+ "relation": {
+  "kind": "Relation",
+  "id": "9bc56aee-964a-424b-be36-2bedc2b78689"
+ },
+ "size": 0,
+ "storageSize": 5881888.0,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "InMemoryRelation",
+   "id": "52517ccc-3574-4d2a-b1c1-c132d5655348",
+   "inMemoryTable": {
+    "kind": "Table",
+    "nRows": 0,
+    "properties": {
+     "kind": "TableProperties",
+     "name": "",
+     "sortOrder": [],
+     "ascending": true
+    },
+    "columns": []
+   }
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds5",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Export Report",
+    "version": "0.2.4",
+    "operatorId": "3",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "OutputFormat",
+      "value": "MS-PowerPoint (*.pptx)"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "SVGOptimization",
+      "value": "Bitmap Auto"
+     },
+     {
+      "kind": "PropertyValue",
+      "name": "LabelPosition",
+      "value": "Right"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/export_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "1000000000"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "preferred.run.ctx",
+     "value": ""
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
